@@ -20,7 +20,7 @@ CIFAR10_Image_Classification/
 ## Key Findings
 - The Winner: EfficientNetB0 achieved the highest accuracy at 86.24%, proving its "Compound Scaling" is highly effective even for smaller images.
 - The Runner-Up: MobileNetV2 followed closely at 85.91%. It is the most efficient choice for edge deployment due to its lightweight architecture.
-- Custom CNN Performance: Our scratch-built model hit 76.03%. While a strong baseline, it reached a plateau where the animal classes (cats/dogs) became difficult to distinguish without pre-trained features.
+- Custom CNN Performance: The scratch-built model hit 76.03%. While a strong baseline, it reached a plateau where the animal classes (cats/dogs) became difficult to distinguish without pre-trained features.
 
 ## How to Run
 1. Install dependencies: `pip install -r requirements.txt`
