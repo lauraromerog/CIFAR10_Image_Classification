@@ -8,11 +8,14 @@ This project explores the performance gap between a Convolutional Neural Network
 - **Framework**: TensorFlow / Keras.
 
 ## Project Structure
+
+```
 CIFAR10_Image_Classification/
-├── CIFAR10_Image_Classification.ipynb             ← Code & analysis
-├── requirements.txt                               ← Python dependencies
-├── CIFAR10_Image_Classification_Findings.ppt      ← Project PPT Summary
-└── README.md                                      ← Project documentation
+├── CIFAR10_Image_Classification.ipynb
+├── requirements.txt
+├── CIFAR10_Image_Classification_Findings.ppt
+└── README.md
+```
 
 ## Key Findings
 - The Winner: EfficientNetB0 achieved the highest accuracy at 86.24%, proving its "Compound Scaling" is highly effective even for smaller images.
