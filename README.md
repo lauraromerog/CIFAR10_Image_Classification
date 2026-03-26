@@ -25,7 +25,7 @@ CIFAR10_Image_Classification/
 ## Ensamble 
 The two best models are ensambled in a Soft Voting system. Instead of just looking at the final answer (e.g., "It's a Dog"), might be better to look at the raw probabilities (e.g., "I am 90% sure it's a Dog, and 10% sure it's a Cat").
 
-It works by **asking the top models (EfficientNet and MobileNet) to predict the probabilities for the test images, calculating the average among those probabilities together, and picking the class with the highest average score.
+It works by **asking the top models (EfficientNet and MobileNet) to predict the probabilities for the test images, calculating the average among those probabilities together, and picking the class with the highest average score.**
 
 As the models make different types of mistakes, seems like a good enough approach to improve accuracy. If EfficientNet gets confused by a weirdly shaped car, MobileNet might recognize the wheels and "outvote" the mistake.
 
