@@ -13,7 +13,7 @@ This project explores the performance gap between a Convolutional Neural Network
 CIFAR10_Image_Classification/
 ├── CIFAR10_Image_Classification.ipynb
 ├── requirements.txt
-├── CIFAR10_Image_Classification_Findings.ppt
+├── CIFAR-10 Image Classification using CNN & Transfer Learning.pptx
 └── README.md
 ```
 
